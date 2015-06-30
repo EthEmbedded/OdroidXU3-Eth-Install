@@ -42,7 +42,7 @@
 
 7. Next lets download, unzip, and choose eth-install.sh OR geth-install.sh:
 
-	`wget https://github.com/EthEmbedded/OdroidXU3-Eth-Install/archive/v0.1.8.zip`
+	`wget https://github.com/EthEmbedded/OdroidXU3-Eth-Install/archive/v0.1.8.tar.gz`
 
 	`tar -xvzf v0.1.7.tar.gz`
 	
