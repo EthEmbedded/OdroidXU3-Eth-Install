@@ -20,15 +20,12 @@
 ###### *Disclaimer* - If you will be formatting an SD card be aware that you will be deleting all information stored on said card.  Eth(Embedded) is *NOT*  responsible for any data loss that may occur during the format process.
 
 1. Insert your FAT32 formatted SD card into your linux PC or Laptop. 
-2. Download one of the available Ubuntu 14.04lts images from www.odroid.in:
-
-  - Server(no GUI) link: http://www.odroid.in/ubuntu_14.04lts/ubuntu-14.04lts-server-odroid-xu3-20140902.img.xz
-  - Server MD5 Hash link: http://www.odroid.in/ubuntu_14.04lts/ubuntu-14.04lts-server-odroid-xu3-20140902.img.xz.md5sum
+2. Download the Ubuntu 14.04lts images from www.odroid.in:
   
   - Desktop (Lubuntu) link: http://www.odroid.in/ubuntu_14.04lts/ubuntu-14.04.1lts-lubuntu-odroid-xu3-20150212.img.xz
   - Desktop MD5 Hash link: http://www.odroid.in/ubuntu_14.04lts/ubuntu-14.04.1lts-lubuntu-odroid-xu3-20150212.img.xz.md5sum
   
-2. Once you have downloaded the .img file we will need to extract it using [7zip](http://www.7-zip.org/), and then burn the image to our SD card using [WinDiskImager](http://sourceforge.net/projects/win32diskimager/) on Windows, or `dd` on Linux/MAC following the how-to here: https://www.raspberrypi.org/documentation/installation/installing-images/linux.md
+2. Once you have downloaded the .img file we will need to extract it using [7zip](http://www.7-zip.org/), and then burn the image to our SD card using [WinDiskImager](http://sourceforge.net/projects/win32diskimager/) on Windows, or just use `tar` and `dd` on Linux following the how-to here: https://www.raspberrypi.org/documentation/installation/installing-images/linux.md
 3. Safely remove and install SD card into a powered down Odroid XU3 with ethernet cable connected between XU3 and an internet enabled DHCP router.
 4. Power on your Odroid XU3.
 5. While the Odroid XU3 is booting, we need to log in to our router and look at the dhcp client list to find the IP address assigned to our Odroid XU3 device, alternately you can use one of my favorite mobile apps, [FING](https://play.google.com/store/apps/details?id=com.overlook.android.fing&hl=en), as long as your android phone is connected to the same network. We can then, using a linux cli or [putty](http://www.putty.org/), ssh[(instructions)](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-6-using-ssh/using-ssh-on-a-mac-or-linux) into the device with the following *default* credentials:
