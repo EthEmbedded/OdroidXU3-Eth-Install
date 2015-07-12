@@ -35,4 +35,4 @@ echo -e "\e[34mInstalling go-ethereum...\e[0m"
 cd ~
 git clone https://github.com/ethereum/go-ethereum
 cd go-ethereum
-sudo make geth
+make geth
