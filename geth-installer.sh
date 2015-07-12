@@ -27,9 +27,11 @@ cd golang
 git checkout go1.4.2
 cd src
 sudo ./make.bash
+export PATH=$HOME/golang/bin:$PATH
 
 #Install go-ethereum OR `geth`
 echo -e "\e[34mInstalling go-ethereum...\e[0m"
+
 cd ~
 git clone https://github.com/ethereum/go-ethereum
 cd go-ethereum
