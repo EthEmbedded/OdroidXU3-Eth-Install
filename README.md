@@ -20,10 +20,10 @@
 ###### *Disclaimer* - If you will be formatting an SD card be aware that you will be deleting all information stored on said card.  Eth(Embedded) is *NOT*  responsible for any data loss that may occur during the format process.
 
 1. Insert your FAT32 formatted SD card into your linux PC or Laptop. 
-2. Download the Ubuntu 14.04lts images from www.odroid.in:
+2. Download the Ubuntu 15.04lts images from http://odroid.in/ubuntu_15.04/:
   
-  - Desktop (Lubuntu) link: http://www.odroid.in/ubuntu_14.04lts/ubuntu-14.04.1lts-lubuntu-odroid-xu3-20150212.img.xz
-  - Desktop MD5 Hash link: http://www.odroid.in/ubuntu_14.04lts/ubuntu-14.04.1lts-lubuntu-odroid-xu3-20150212.img.xz.md5sum
+  - Desktop (Mate) link: http://odroid.in/ubuntu_15.04/ubuntu-15.04-mate-odroid-xu3-20150710.img.xz
+  - Desktop MD5 Hash link: http://odroid.in/ubuntu_15.04/ubuntu-15.04-mate-odroid-xu3-20150710.img.xz.md5sum
   
 2. Once you have downloaded the .img file we will need to extract it using [7zip](http://www.7-zip.org/), and then burn the image to our SD card using [WinDiskImager](http://sourceforge.net/projects/win32diskimager/) on Windows, or just use `tar` and `dd` on Linux following the how-to here: https://www.raspberrypi.org/documentation/installation/installing-images/linux.md
 3. Safely remove and install SD card into a powered down Odroid XU3 with ethernet cable connected between XU3 and an internet enabled DHCP router.
@@ -41,7 +41,7 @@
 
 	`wget https://github.com/EthEmbedded/OdroidXU3-Eth-Install/archive/v0.1.8.tar.gz`
 
-	`tar -xvzf v0.1.7.tar.gz`
+	`tar -xvzf v0.1.8.tar.gz`
 	
 	`cd OdroidXU3-Eth-Install`
 
