@@ -1,7 +1,9 @@
 # [Eth(Embedded)](http://www.ethembedded.com) [Hardkernel Odroid XU3](http://www.hardkernel.com/main/products/prdt_info.php?g_code=G140448267127)/[Ethereum](https://www.ethereum.org/) Install Instructions
 
 ### Supported Boards:
+- Hardkernel Odroid XU3Lite
 - Hardkernel Odroid XU3
+- Hardkernel Odroid XU4
 
 ### Materials Needed:
 - Odroid XU3 development board
