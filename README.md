@@ -41,21 +41,21 @@
 
 7. Next lets download, unzip, and choose eth-install.sh OR geth-install.sh:
 
-	`wget https://github.com/EthEmbedded/OdroidXU3-Eth-Install/archive/v0.1.8.tar.gz`
+	`wget https://github.com/EthEmbedded/OdroidXU3-Eth-Install/archive/v0.1.9.tar.gz`
 
-	`tar -xvzf v0.1.8.tar.gz`
+	`tar -xvzf v0.1.9.tar.gz`
 	
 	`cd OdroidXU3-Eth-Install`
 
-	`sudo chmod +x geth-install.sh` OR `sudo chmod +x eth-install.sh` 
+	`sudo chmod +x geth-installer.sh` OR `sudo chmod +x eth-installer.sh` 
 	
 8. Now lets run the install script for either `geth` or `eth`
 
-	`./geth-install.sh`
+	`./geth-installer.sh`
 	
 	OR
 	
-	`./eth-install.sh`
+	`./eth-installer.sh`
 	
 9. Finally lets start the client:
 
