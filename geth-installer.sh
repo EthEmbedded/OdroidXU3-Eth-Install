@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Upgrade Debian to "stretch"
-echo -e "\e[32mFirst we need to edit our sources.list to set stretch/testing as our source so we can install latest versions of dependencies\e[0m"
+echo -e "\e[32mFirst we need to edit our sources.list to set Wily as our source so we can install latest versions of dependencies\e[0m"
 sudo sed -i 's/vivid/wily/g' /etc/apt/sources.list
 echo -e "\e[34mPerforming Housekeeping - Update...\e[0m"
 sudo apt-get -y update
