@@ -41,14 +41,29 @@
 	
 7. We also need to log off, and then log in as root to change the default root password:
 
-	- login : `odroid`
-	- password: `odroid`
+	- login : `root`
+	- password: `root`
 
 	then...
 
 	`passwd` and follow on screen instructions...
 
-8. Next lets re-login as the odroid user and then: download, unzip, and choose eth-installer.sh OR geth-installer.sh:
+8. Next lets re-login as the odroid user and expand partition #2 to utilize the entire SD Card: 
+
+	`sudo fdisk /dev/mmcblk0`
+	
+	We can press `p` for print to see our current setup and give you a reference moving forward.
+	
+	Next we need to delete and then re-create partition #2 by selecting:
+	
+	`d` - delete
+	`2` - partition to be deleted
+	`n` - create new partition
+	`p` - select partition type primary
+	`enter` - select default start block
+	`enter` - select default last block
+
+9. Now lets download & unzip the installer scripts and choose eth-installer.sh OR geth-installer.sh:
 
 	`wget https://github.com/EthEmbedded/OdroidXU3-Eth-Install/archive/v0.1.9.tar.gz`
 
