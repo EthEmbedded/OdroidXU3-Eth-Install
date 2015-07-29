@@ -65,11 +65,11 @@
 
 9. Now lets download & unzip the installer scripts and choose eth-installer.sh OR geth-installer.sh:
 
-	`wget https://github.com/EthEmbedded/OdroidXU3-Eth-Install/archive/v0.1.9.tar.gz`
+	`wget https://github.com/EthEmbedded/OdroidXU3-Eth-Install/archive/v0.2.0.tar.gz`
 
-	`tar -xvzf v0.1.9.tar.gz`
+	`tar -xvzf v0.2.0.tar.gz`
 	
-	`cd OdroidXU3-Eth-Install-0.1.9`
+	`cd OdroidXU3-Eth-Install-0.2.0`
 
 	`sudo chmod +x geth-installer.sh` OR `sudo chmod +x eth-installer.sh` 
 	
