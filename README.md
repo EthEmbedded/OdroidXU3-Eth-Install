@@ -48,7 +48,7 @@
 
 	`passwd` and follow on screen instructions...
 
-8. Next lets re-login as the odroid user and expand partition #2 to utilize the entire SD Card: 
+8. Next lets re-login as the `odroid` user and expand partition #2 to utilize the entire SD Card: 
 
 	`sudo fdisk /dev/mmcblk0`
 	
