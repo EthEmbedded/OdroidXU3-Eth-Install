@@ -38,8 +38,17 @@
 6. At this point lets take the opportunity to change the `odroid` users password: 
 
 	`passwd` and follow on screen instructions...
+	
+7. We also need to log off, and then log in as root to change the default root password:
 
-7. Next lets download, unzip, and choose eth-install.sh OR geth-install.sh:
+	- login : `odroid`
+	- password: `odroid`
+
+then...
+
+	`passwd` and follow on screen instructions...
+
+8. Next lets re-login as the odroid user and then: download, unzip, and choose eth-installer.sh OR geth-installer.sh:
 
 	`wget https://github.com/EthEmbedded/OdroidXU3-Eth-Install/archive/v0.1.9.tar.gz`
 
@@ -49,7 +58,7 @@
 
 	`sudo chmod +x geth-installer.sh` OR `sudo chmod +x eth-installer.sh` 
 	
-8. Now lets run the install script for either `geth` or `eth`
+9. Now lets run the install script for either `geth` or `eth`
 
 	`./geth-installer.sh`
 	
@@ -59,7 +68,7 @@
 	
 	***NOTE*** - If a window pops up requesting you to restart services during the process, feel free to select yes.
 	
-9. Finally lets start the client:
+10. Finally lets start the client:
 
 	For `geth` :
 	
