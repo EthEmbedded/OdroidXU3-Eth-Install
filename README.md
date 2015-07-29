@@ -45,7 +45,7 @@
 
 	`tar -xvzf v0.1.9.tar.gz`
 	
-	`cd OdroidXU3-Eth-Install`
+	`cd OdroidXU3-Eth-Install-0.1.9`
 
 	`sudo chmod +x geth-installer.sh` OR `sudo chmod +x eth-installer.sh` 
 	
