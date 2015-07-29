@@ -57,6 +57,8 @@
 	
 	`./eth-installer.sh`
 	
+	***NOTE*** - If a window pops up requesting you to restart services during the process, feel free to select yes.
+	
 9. Finally lets start the client:
 
 	For `geth` :
