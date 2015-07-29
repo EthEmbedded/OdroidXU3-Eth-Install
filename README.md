@@ -56,12 +56,12 @@
 	
 	Next we need to delete and then re-create partition #2 by selecting:
 	
-	`d` - delete
-	`2` - partition to be deleted
-	`n` - create new partition
-	`p` - select partition type primary
-	`enter` - select default start block
-	`enter` - select default last block
+	-`d` - delete
+	-`2` - partition to be deleted
+	-`n` - create new partition
+	-`p` - select partition type primary
+	-`enter` - select default start block
+	-`enter` - select default last block
 
 9. Now lets download & unzip the installer scripts and choose eth-installer.sh OR geth-installer.sh:
 
