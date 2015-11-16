@@ -37,6 +37,6 @@ git clone --recursive https://github.com/ethereum/webthree-umbrella
 cd webthree-umbrella
 mkdir build
 cd build
-cmake .. -DCMAKE_BUILD_TYPE=Release -DBUNDLE=minimal -DEVMJIT=off DGUI=off
+cmake .. -DCMAKE_BUILD_TYPE=Release -DBUNDLE=minimal -DEVMJIT=off -DGUI=off
 make -j4
 cd ../..
